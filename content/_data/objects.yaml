@@ -17,16 +17,14 @@ object_list:
     link:  https://www.getty.edu/art/collection/object/108E2E
     figure:
       - id: "cat-1"
-
-  - id: 2
-    title: Bud Fields and His Wife Ivy, and His Daughter Ellen, Hale County, Alabama
-    artist: Walker Evans
-    year: 1936
-    medium: Gelatin silver print
-    dimensions: 19.4 x 24.4 (7 <sup>5</sup>⁄<sub>8</sub> x 9 <sup>5</sup>⁄<sub>8</sub> in.)
+    
+  - id: 'accordion'
+    title: '[Accordion player with monkey]'
+    artist: 'Unknown maker, French'
+    year: 'about 1890s'
+    medium: 'Gelatin silver print'
+    dimensions: '8 × 11 cm (3 1/8 × 4 5/16 in.)'
     location: J. Paul Getty Museum
-    link: https://www.getty.edu/art/collection/object/104A2K
+    link: https://www.getty.edu/art/collection/object/104BZP
     figure:
-      - id: "cat-2"
-      - id: "cat-2-b"
-      - id: "cat-2-c"
+      - id: 'accordion'
