@@ -1,10 +1,11 @@
 ---
-title: Accordions
-subtitle: Nested
+title: Nested Accordion Sections
 layout: essay
 order: 42
-# image: figures/accordion.jpg
-abstract: 'This page features multiple `accordion` sections nested together in a numbered outline. Two are set to be open by default. You can also link [into nested sections](#section-1-3-dictum-fusce-ut-placerat) or [to items](#accordion) within sections. Read about accordion sections in the docs at https://quire.getty.edu/docs-v1/accordion.'
+abstract: |
+  This page features multiple `accordion` sections nested together in a numbered outline. Two are set to be open by default. You can also link [into nested sections](#section-1-3-dictum-fusce-ut-placerat) or [to items](#accordion) within sections. 
+  
+  [Accordions Documentation](https://quire.getty.edu/docs-v1/accordion) | [Markdown for This Page](#)
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet massa vitae tortor condimentum. Egestas dui id ornare arcu odio ut sem nulla pharetra. Leo a diam sollicitudin tempor. Ipsum dolor sit amet consectetur adipiscing elit duis tristique. Enim facilisis gravida neque convallis a cras semper.
@@ -41,6 +42,9 @@ Gravida quis blandit turpis cursus in hac habitasse platea dictumst. Tempor id e
 
 {% endaccordion %}
 {% endaccordion %}
+
+---
+
 {% accordion '## 2. Sollicitudin Aliquam' '' 'open' %}
 
 Venenatis urna cursus eget nunc scelerisque viverra mauris. Donec adipiscing tristique risus nec. Amet mattis vulputate enim nulla aliquet porttitor. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Viverra justo nec ultrices dui sapien eget. In est ante in nibh mauris cursus. Risus feugiat in ante metus dictum at. Egestas sed tempus urna et pharetra pharetra massa. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Orci eu lobortis elementum nibh tellus molestie nunc non blandit. Augue neque gravida in fermentum et sollicitudin ac. Dictum varius duis at consectetur lorem donec massa. Vel orci porta non pulvinar neque laoreet suspendisse interdum.

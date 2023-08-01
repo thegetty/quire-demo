@@ -1,15 +1,16 @@
 ---
-title: "Accordions"
-subtitle: "Basic"
+title: "Accordion Sections"
+#subtitle: "Basic"
 layout: entry
 order: 41
 presentation: side-by-side
 object:
   - id: 'accordion'
-abstract: 'This page features `accordion` sections used to help users better navigate the page content. An additional `accordionGlobalControls` shortcode is added to add the “Expand/Collapse All” links. Read about accordion sections in the docs at https://quire.getty.edu/docs-v1/accordion.'
+abstract: |
+  This page features `accordion` sections used to help users better navigate the page content. An additional `accordionGlobalControls` shortcode is added to add the “Expand/Collapse All” links. 
+  
+  [Accordions Documentation](https://quire.getty.edu/docs-v1/accordion) | [Markdown for This Page](#)
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet massa vitae tortor condimentum. Egestas dui id ornare arcu odio ut sem nulla pharetra. Leo a diam sollicitudin tempor. Ipsum dolor sit amet consectetur adipiscing elit duis tristique. Enim facilisis gravida neque convallis a cras semper.
 
 {% accordionGlobalControls %}
 
