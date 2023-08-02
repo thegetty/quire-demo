@@ -1,0 +1,59 @@
+/* Colors */
+:root {
+  --blue-60: #1a47b8; /* Getty Blue */
+  --bronze-50: #bc7c44;
+  --orange-50: #e0592a;
+  --orange-60: #bf4116;
+  --garden-10: #bdf6ea;
+  --garden-30: #56dfc1;
+  --garden-50: #13b692;
+  --garden-60: #009877; /* Accent Color */
+  --magenta-60: #b32572;
+  --sky-50: #27aec8;
+  --sunset-30: #f5846c;
+  --yellow-10: #fff9cc;
+  --yellow-40: #f5ce3e;
+  --white: #fff;
+  --black: #000;
+}
+
+.about-this-page {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  padding: 1.5rem;
+}
+.about-this-page code {
+  background-color: transparent;
+  color: var(--black);
+  padding: 0 2px;
+}
+@media screen {
+  .about-this-page {
+    background-color: var(--black);
+    border-top-right-radius: .5rem;
+    bottom: 0;
+    color: var(--white);
+    left: 0;
+    max-width: 640px;
+    position: fixed;
+    z-index: 100;
+  }
+  .about-this-page code {
+    color: var(--white);
+  }
+  .about-this-page a {
+    border-bottom: 1px dotted var(--white);
+    color: var(--white);
+  }
+  .about-this-page .about-this-page__links a {
+    border-bottom-width: 0px;
+    color: var(--garden-10);
+  }
+  .about-this-page .about-this-page__links {
+    margin-top: 1em;
+  }
+  .quire main {
+    padding-bottom: 200px;
+  }
+}

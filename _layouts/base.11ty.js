@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// Adds an aboutBlock to every page pulling from `about` and `documentation_link` info
+//
 const path = require('path')
 const { html } = require('~lib/common-tags')
 
@@ -12,6 +16,13 @@ module.exports = async function(data) {
   const { inputPath, outputPath, url } = pageData || {}
   const pageId = this.slugify(url) || path.parse(inputPath).name
   const figures = pageData.page.figures
+
+  const aboutBlock = !data.about ? '' : html`
+    <div class="about-this-page">
+      <p>${this.markdownify(data.about)}</p>
+      <p class="about-this-page__links"><a href="${data.documentation_link}" target="_blank">Documentation</a> | <a href="https://github.com/thegetty/quire-demo/blob/main/content${data.page.filePathStem}.md" target="_blank">Markdown for This Page</a></p>
+    </div>
+  `
 
   return html`
     <!doctype html>
@@ -33,6 +44,7 @@ module.exports = async function(data) {
           <div class="quire__primary">
             ${this.navigation(data)}
             <main class="quire-page ${pageClasses}" data-output-path="${outputPath}" data-page-id="${pageId}" >
+              ${aboutBlock}
               ${content}
             </main>
           </div>
