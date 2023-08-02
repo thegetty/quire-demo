@@ -2,11 +2,8 @@
 title: "Collapsing Sidebars"
 layout: essay
 order: 43
-# image: figures/accordion.jpg
-abstract: | 
-  This page features a single `accordion` that’s been wrapped in a HTML `<div>` element and given some custom styling as a sidebar. Custom styling could also be added to your project’s `content/_assets/styles/custom.css` file.
-
-  [Accordions Documentation](https://quire.getty.edu/docs-v1/accordion) | [Markdown for This Page](#)
+about: "This page features a single `accordion` that’s been wrapped in a HTML `<div>` element and given some custom styling as a sidebar. Custom styling could also be added to your project’s `content/_assets/styles/custom.css` file."
+documentation_link: https://quire.getty.edu/docs-v1/accordions/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet massa vitae tortor condimentum. Egestas dui id ornare arcu odio ut sem nulla pharetra. Leo a diam sollicitudin tempor. Ipsum dolor sit amet consectetur adipiscing elit duis tristique. Enim facilisis gravida neque convallis a cras semper. 

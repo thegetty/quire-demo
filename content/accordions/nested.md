@@ -2,10 +2,8 @@
 title: Nested Accordion Sections
 layout: essay
 order: 42
-abstract: |
-  This page features multiple `accordion` sections nested together in a numbered outline. Two are set to be open by default. You can also link [into nested sections](#section-1-3-dictum-fusce-ut-placerat) or [to items](#accordion) within sections. 
-  
-  [Accordions Documentation](https://quire.getty.edu/docs-v1/accordion) | [Markdown for This Page](#)
+about: "This page features multiple `accordion` sections nested together in a numbered outline. Two are set to be open by default. You can also link [into nested sections](#section-1-3-dictum-fusce-ut-placerat) or [to items](#accordion) within sections. "
+documentation_link: https://quire.getty.edu/docs-v1/accordions/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet massa vitae tortor condimentum. Egestas dui id ornare arcu odio ut sem nulla pharetra. Leo a diam sollicitudin tempor. Ipsum dolor sit amet consectetur adipiscing elit duis tristique. Enim facilisis gravida neque convallis a cras semper.
