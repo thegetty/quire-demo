@@ -26,3 +26,39 @@ figure_list:
           - src: "figures/lange-layers/scratches.png"
           - src: "figures/lange-layers/thumb.png"
             selected: true
+  
+  - id: "terracotta"
+    label: "360 TERRACOTTA"
+    caption: "Testing the rotation with 45 images, the same files as are used in https://www.getty.edu/publications/terracottas/catalogue/51/, 650 × 768px, ~340kb each."
+    credit: ""
+    alt: ""
+    sequences:
+      - id: "figures/terracotta/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+
+  - id: "fountain"
+    label: "360 SILVER"
+    caption: "Testing the rotation with 45 images, the same files as are used in https://www.getty.edu/publications/terracottas/catalogue/51/, 650 × 768px, ~340kb each."
+    credit: ""
+    alt: ""
+    sequences:
+      - id: "figures/fountain/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+
+  - id: "muybridge"
+    label: "MUYBRIDGE SEQUENCE"
+    caption: "Testing the rotation with 15 images, 825 × 629px, ~110kb each. Non-rotating sequence, cropped out of https://www.getty.edu/art/collection/object/10467G."
+    credit: ""
+    alt: ""
+    sequences:
+      - id: "figures/muybridge/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
