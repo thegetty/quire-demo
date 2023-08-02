@@ -5,6 +5,8 @@ order: 1
 menu: false
 toc: false
 image: spiral-overlay.png
+about: "Created with `layout: cover` a custom background `image` can defined in the YAML for the page."
+documentation_link: https://quire.getty.edu/docs-v1/pages/
 ---
 
-In the 1930s, during America's worst financial crises, the administration of President Franklin D. Roosevelt employed photographers to document the plight of everyday folk in the Great Depression in order to push forward with their New Deal programs. Documentary photographers Dorothea Lange and Walker Evans were prolific frontrunners of these efforts and their extraordinary photographs continue to endure today. Their artistic and documentary mastery and historical importance provide key insight into a monumental turning point in American history.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet massa vitae tortor condimentum. Egestas dui id ornare arcu odio ut sem nulla pharetra. Leo a diam sollicitudin tempor. Ipsum dolor sit amet consectetur adipiscing elit duis tristique. Enim facilisis gravida neque convallis a cras semper.[^1] Sem et tortor consequat id porta nibh venenatis cras sed. Aliquet nec ullamcorper sit amet risus nullam eget. Eget est lorem ipsum dolor sit amet consectetur adipiscing. Adipiscing enim eu turpis egestas pretium aenean. Eu lobortis elementum nibh tellus molestie nunc non.
