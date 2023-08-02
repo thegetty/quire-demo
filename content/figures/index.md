@@ -1,5 +1,5 @@
 ---
 title: "Figures"
-layout: page
+layout: splash
 order: 30
 ---

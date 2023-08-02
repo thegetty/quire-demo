@@ -1,5 +1,5 @@
 ---
 title: "Pages"
-layout: page
+layout: splash
 order: 20
 ---

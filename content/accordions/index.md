@@ -1,5 +1,5 @@
 ---
 title: "Accordions"
-layout: page
+layout: splash
 order: 40
 ---
