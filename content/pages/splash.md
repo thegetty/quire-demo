@@ -2,7 +2,7 @@
 title: "Splash"
 layout: splash
 order: 22
-image: figures/splash.jpg
+image: figures/marine.jpg
 about: "This is a page with `layout: splash`. It has a large drop cap, and will display an `image` in the top banner. In the PDF output, the image will be a full-page bleed, creating a section break page."
 documentation_link: https://quire.getty.edu/docs-v1/pages/
 ---

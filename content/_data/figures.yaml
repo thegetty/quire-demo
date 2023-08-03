@@ -3,62 +3,74 @@ figure_list:
   - id: 'accordion'
     src: figures/accordion.jpg
     zoom: true
-    caption:  'Unknown maker, French, photographer. [Accordion player with monkey], about 1890s. Gelatin silver print. 8 × 11 cm (3 1/8 × 4 5/16 in.). The J. Paul Getty Museum, Los Angeles, 84.XP.1416.63'
-
-  - id: "cat-1"
-    src: figures/lange-mother-a.jpg
-    caption: "Dorothea Lange, *Human Erosion in California / Migrant Mother*, 1936."
-    credit: The J. Paul Getty Museum, Los Angeles
-    download: true
+    label: 'Accordion'
+    caption: 'Unknown maker, French, photographer. [Accordion player with monkey], about 1890s. Gelatin silver print. 8 × 11 cm (3 1/8 × 4 5/16 in.). https://www.getty.edu/art/collection/object/104BZP.'
+    credit: 'The J. Paul Getty Museum, Los Angeles'
+    alt: 'A man playing an accordion with a monkey sitting on his shoulder. The man is wearing a hat and is looking towards the monkey. The monkey has a paw over its face.'
+  
+  - id: 'marine'
+    src: figures/marine.jpg
     zoom: true
+    label: 'Marine'
+    caption: 'Claude Monet, *Sunrise (Marine)*, 1872 or 1873. Oil on canvas. 50.2 × 61 cm (19 3/4 × 24 in.). https://www.getty.edu/art/collection/object/103QT7.'
+    credit: 'The J. Paul Getty Museum, Los Angeles'
+    alt: 'Oil painting of a harbor with a sailboat, painted in thick, short strokes; the orange light of the sun filters through muted blues and greens of sky and water.'
 
-  - id: "mother-annotations"
-    src: "figures/lange-layers/base.jpg"
+  - id: 'mother'
+    src: figures/mother.jpg
     zoom: true
-    label: "Figure 1.2"
-    caption: "This version of the print from the Library of Congress Prints and Photographs Division is mounted on paper board and includes an original FSA label. Note too the thumb seen in the lower right corner. It is also visible in the Getty‘s print, but Lange’s negative was later retouched to remove the thumb and in later prints, it is only a ghostly shadow."
+    label: 'Mother'
+    caption: 'Dorothea Lange, *Human Erosion in California / Migrant Mother*, 1936. Gelatin silver print. 34.1 × 26.8 cm (13 7/16 × 10 9/16 in.). https://www.getty.edu/art/collection/object/108E2E.'
+    credit: 'The J. Paul Getty Museum, Los Angeles'
+    alt: 'Sepia-toned photograph of a seated woman, her hand on her chin, a baby in her lap and two children on either side with their faces hidden against her neck.'
+
+  - id: 'mother-annotations'
+    src: 'figures/lange-layers/base.jpg'
+    zoom: true
+    label: ''
+    caption: 'This version of the print from the Library of Congress Prints and Photographs Division is mounted on paper board and includes an original FSA label. Note too the thumb seen in the lower right corner. It is also visible in the Getty‘s print, but Lange’s negative was later retouched to remove the thumb and in later prints, it is only a ghostly shadow.'
     annotations:
       - input: checkbox
         items:
-          - src: "figures/lange-layers/original-label.png"
+          - src: 'figures/lange-layers/original-label.png'
             selected: true
-          - src: "figures/lange-layers/additional-label.png"
-          - src: "figures/lange-layers/scratches.png"
-          - src: "figures/lange-layers/thumb.png"
+          - src: 'figures/lange-layers/additional-label.png'
+          - src: 'figures/lange-layers/scratches.png'
+          - src: 'figures/lange-layers/thumb.png'
             selected: true
   
-  - id: "terracotta"
-    label: "360 TERRACOTTA"
-    caption: "Testing the rotation with 45 images, the same files as are used in https://www.getty.edu/publications/terracottas/catalogue/51/, 650 × 768px, ~340kb each."
-    credit: ""
-    alt: ""
+  - id: 'terracotta'
+    label: 'Terracotta'
+    caption: 'Unknown (Greek (Sicilian)) *Head of a Woman*, 350–300 B.C. Terracotta with white slip and polychromy (pink, red, dark pink, white, purple). 28.8 × 19.1 × 15.1 cm (11 5/16 × 7 1/2 × 5 15/16 in.). https://www.getty.edu/art/collection/object/103T4C.'
+    credit: 'The J. Paul Getty Museum, Los Angeles'
+    alt: 'Clay bust of a female head wearing a polos, which is decorated on the upper edge with small protruding nodes. The figure’s thick wavy hair is divided symmetrically into two masses and pulled back.'
     sequences:
-      - id: "figures/terracotta/"
+      - id: 'figures/terracotta/'
         behavior:
           - continuous
           - sequence
-        viewing_direction: "right-to-left"
+        viewing_direction: 'right-to-left'
 
-  - id: "fountain"
-    label: "360 SILVER"
-    caption: "Testing the rotation with 45 images, the same files as are used in https://www.getty.edu/publications/terracottas/catalogue/51/, 650 × 768px, ~340kb each."
-    credit: ""
-    alt: ""
+  - id: 'fountain'
+    label: 'Fountain'
+    caption: 'Possibly by Jean Leroy, *Fountain*, 1661–1663. Silver. 65.1 × 35.9 × 36.2 cm, 11250 g (25 5/8 × 14 1/8 × 14 1/4 in., 361.6954 ozt.). https://www.getty.edu/art/collection/object/103SH2.'
+    credit: 'The J. Paul Getty Museum, Los Angeles'
+    alt: 'Symmetrical silver urn with two large handles on either side at the top, a water spigot on the front, and the face of a lion in relief on the back.'
     sequences:
-      - id: "figures/fountain/"
+      - id: 'figures/fountain/'
         behavior:
           - continuous
           - sequence
-        viewing_direction: "right-to-left"
+        viewing_direction: 'right-to-left'
 
-  - id: "muybridge"
-    label: "MUYBRIDGE SEQUENCE"
-    caption: "Testing the rotation with 15 images, 825 × 629px, ~110kb each. Non-rotating sequence, cropped out of https://www.getty.edu/art/collection/object/10467G."
-    credit: ""
-    alt: ""
+  - id: 'muybridge'
+    label: 'Muybridge'
+    caption: 'Eadweard J. Muybridge, *Animal Locomotion*, 1887. Collotype. 23.8 × 30.8 cm (9 3/8 × 12 1/8 in.). https://www.getty.edu/art/collection/object/10467G.'
+    credit: 'The J. Paul Getty Museum, Los Angeles'
+    alt: 'Sixteen frames, in sepia tone, of a horse and rider galloping.'
     sequences:
-      - id: "figures/muybridge/"
+      - id: 'figures/muybridge/'
         behavior:
           - continuous
           - sequence
-        viewing_direction: "right-to-left"
+        viewing_direction: 'right-to-left'

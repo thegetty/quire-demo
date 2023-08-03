@@ -16,7 +16,7 @@ object_list:
     location: J. Paul Getty Museum
     link:  https://www.getty.edu/art/collection/object/108E2E
     figure:
-      - id: "cat-1"
+      - id: 'mother'
     
   - id: 'accordion'
     title: '[Accordion player with monkey]'
