@@ -1,7 +1,12 @@
 ---
 title: "Essay"
+subtitle: "With a Subtitle"
 layout: essay
 order: 23
+contributor:
+  - first_name: Contributor
+    last_name: Name
+abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet massa vitae tortor condimentum. Egestas dui id ornare arcu odio ut sem nulla pharetra."
 about: "A page with `layout: essay`, often used for standalone articles or chapters in a collected volume."
 documentation_link: https://quire.getty.edu/docs-v1/pages/
 ---

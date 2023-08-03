@@ -5,7 +5,7 @@ order: 1
 menu: false
 toc: false
 image: spiral-overlay.png
-about: "Created with `layout: cover` a custom background `image` can defined in the YAML for the page."
+about: "Created with `layout: cover`, the file for the cover is alway named `index.md` to ensure it appears at the base URL of your site. A custom background `image` can defined in the YAML of the `index.md` page."
 documentation_link: https://quire.getty.edu/docs-v1/pages/
 ---
 

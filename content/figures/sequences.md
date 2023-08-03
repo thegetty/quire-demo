@@ -2,7 +2,7 @@
 title: "Rotations & Sequences"
 layout: page
 order: 34
-about: "Sequences of images are defined in `figures.yaml` and then displayed with the `{% figure %}` shortcode in a click-and-drag interface to make 360-degree rotations and interactive animations."
+about: "This page features 360-degree rotations and interactive animations inside the figure modal, using the `{% figure %}` shortcode. Sequences of static images are defined in `figures.yaml` to create these click-and-drag interactives."
 documentation_link: https://quire.getty.edu/docs-v1/sequences/
 ---
 
