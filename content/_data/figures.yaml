@@ -74,3 +74,28 @@ figure_list:
           - continuous
           - sequence
         viewing_direction: 'right-to-left'
+
+  - id: 'irises-zoom'
+    label: 'Irises'
+    caption: 'Vincent van Gogh, *Irises*, 1889. Oil on canvas. Unframed: 74.3 × 94.3 cm (29 1/4 × 37 1/8 in.), Framed [Outer Dim]: 94.9 × 114.9 × 11.4 cm (37 3/8 × 45 1/4 × 4 1/2 in.)'
+    credit: 'The J. Paul Getty Museum, Los Angeles'
+    alt: 'Painting of irises with green stalks and blue flowers'
+    manifestId: https://media.getty.edu/iiif/manifest/53be857e-41e8-4198-b45d-2e0f52d3051b
+    canvasId: https://media.getty.edu/iiif/manifest/canvas/8c255d80-7382-46db-9fa8-892c0d37247e
+    printImage: figures/getty-irises.jpg
+    src: figures/getty-irises.jpg 
+
+  - id: 'cat-basic'
+    label: 'Cat on a Stool'
+    caption: 'Henry Pointer, *[Cat on a stool "playing" a violin]*, March 1872. Albumen silver print.'
+    credit: 'The J. Paul Getty Museum, Los Angeles'
+    alt: 'Photograph of a cat with its paw on a violin and bow'
+    src: figures/cat-basic.jpg 
+
+  - id: 'irises-zoom-true'
+    label: 'Irises'
+    caption: 'Vincent van Gogh, *Irises*, 1889. Oil on canvas. Unframed: 74.3 × 94.3 cm (29 1/4 × 37 1/8 in.), Framed [Outer Dim]: 94.9 × 114.9 × 11.4 cm (37 3/8 × 45 1/4 × 4 1/2 in.)'
+    credit: 'The J. Paul Getty Museum, Los Angeles'
+    alt: 'Painting of irises with green stalks and blue flowers'
+    src: figures/getty-irises.jpg 
+    zoom: true
